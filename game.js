@@ -76,7 +76,7 @@ var Game = {
         outputLine("<b>Interactive Fiction</b> was a very popular style of game in the early days of computing before video displays existed and computers where only capable of text output. Originally they were called 'Text Adventure Games' or just 'Adventure Games' because of the first such game <b>Colossal Cave Adventure</b>");
         outputLine("");
         outputLine("<b>How to play</b>");
-        outputLine("IF is a combination of story and puzzles. Your character will move around different rooms and be presented with a text based description of that room. Simply type commands at the prompt such as <b>Look at House</b> and <b>Talk to man<b> in order to further progress the game.");
+        outputLine("IF is a combination of story and puzzles. Your character will move around different rooms and be presented with a text based description of that room. Simply type commands at the prompt such as <b>Look at House</b> and <b>Talk to man</b> in order to further progress the game.");
     }
 };
 
