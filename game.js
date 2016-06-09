@@ -210,7 +210,7 @@ function CreateRoomDungeon() {
             outputLine("The door to the cell slams shut with a violent thunk.");
             outputSpeech("You don't know how much trouble you are in young man!")
             outputLine("The vice chanceller is obviously very angry.");
-            outputSpeech("Next time you cast an anthropomorphize spell it better not be during the most important match of the season! Crikey, If there weren't any senior wizards in attendance the Rivercity Sharks might well be sleeping with the fishes!");
+            outputSpeech("Next time you cast an anthropomorphize spell it better not be during the most important match of the season! Crikey, If there weren't any senior wizards in attendance the Super City Sharks would have ended up sleeping with the fishes!");
             outputSpeech("I'm revoking your magic rights until further notice, so you'll just have to do everything manually from now on - And you can stay in this cell to think about what you've done!")
             outputSpeech("A mere apprentice shouldn't even be toiling with such high level magics!");
             outputLine("And with that the vice chanceller's footsteps echo as he stomps down the hall.")
@@ -233,7 +233,7 @@ function CreateRoomDungeon() {
         }
         
         if (e == "look object" || e == "look skeleton" || e == "look corner") {
-            output("Upon closer inspection you see there is a skeleton sitting patiently in the corner. Hopefully it's not the last resident to have angered the vice chanceller. ");
+            output("Upon closer inspection you see there is a <b>skeleton</b> sitting patiently in the corner. Hopefully it's not the last resident to have angered the vice chanceller. ");
             if (room.variables["skeleton_has_arm"] == true) {
                 outputLine("It looks like the skeleton's <b>arm</b> has come loose.");
             }
